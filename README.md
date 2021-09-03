@@ -57,6 +57,7 @@ set_keys(k)                                 # [Void] Sets keyboard keys
 #------------------------------#
 #         Events Types         #
 #------------------------------#
+
 :onerase                                    # When erase key pressed
 :onshow                                     # When Keyboard displayed
 :onhide                                     # When Keyboard hides
@@ -69,6 +70,7 @@ set_keys(k)                                 # [Void] Sets keyboard keys
 #------------------------------#
 #        Events Callbacks      #
 #------------------------------#
+
 erase_callback(char)                        # Callback to :onerase event, char is character deleted
 show_callback()                             # Callback to :onshow event, Called when Keyboard show up
 hide_callback()                             # Callback to :onhide event, Called when Keyboard hides
