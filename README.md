@@ -119,6 +119,10 @@ Label       # Used by drkbd to render labels
 Sprite      # Used by drkbd to render sprites
 ```
 
+## Usage
+
+This was originally made for the game [COLOLINKS!](https://rabios.itch.io/cololinks) so make sure you check it out! :)
+
 ## DEV NOTES:
 
 drkbd initialized in hash `$gtk.args.state.drkbd` and that's to make it easy to serialize away of the state if data is big.
