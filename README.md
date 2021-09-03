@@ -2,7 +2,7 @@
 
 On-Screen Keyboard for DragonRuby!
 
-Why this made? Because until now DragonRuby does not have functions for working with mobile keyboards...
+Why make this? Because until now DragonRuby didn't have functions for working with mobile keyboards...
 
 ## Setup
 
@@ -10,23 +10,23 @@ Why this made? Because until now DragonRuby does not have functions for working 
 
 ### Without Smaug
 
-Download `drkbd.rb` as raw to `app` folder of your project and in `main.rb` require it:
+Download `drkbd.rb` as raw to `app` folder of your project and require it in `main.rb`:
 
 ```rb
 require "app/drkbd.rb"
 ```
 
-> Also i prefer to download assets in folder with same name as they load from...
+> Also i prefer to download assets in a folder with the same name as the one they're loaded from...
 
 ### With Smaug
 
-<!-- Install package with `smaug add drkbd` and then require `smaug.rb` as ya used to! -->
+<!-- Install package with `smaug add drkbd` and then require `smaug.rb` as you're used to! -->
 
 Sorry no smaug...
 
 ## Usage
 
-Once you setup and installed drkbd, In your `tick` function initialize drkbd and update with following:
+Once you setup and install drkbd, in your `tick` function initialize drkbd and update with the following:
 
 ```rb
 kbd = DRKeyboard.new   # As DRKeyboard is class, We create instance of class
@@ -34,11 +34,11 @@ kbd.init
 kbd.update
 ```
 
-Check `samples` folder to see how drkbd works.
+Check the `samples` folder to see how drkbd works.
 
 ## API
 
-All drkbd library functions exposed in class `DRKeyboard` and API made to be simple to use.
+All drkbd library functions exposed in class `DRKeyboard` and API are made simple to use.
 
 ```rb
 #------------------------------#
