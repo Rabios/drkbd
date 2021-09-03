@@ -75,7 +75,7 @@ erase_callback(char)                        # Callback to :onerase event, char i
 show_callback()                             # Callback to :onshow event, Called when Keyboard show up
 hide_callback()                             # Callback to :onhide event, Called when Keyboard hides
 kbdup_callback(uppercase_state)             # Callback to :onkbdup event, Called when uppercase key pressed
-swap_callback(section_idx)                  # Callback to :onswap event, Called when swapping to another keyboard section
+swap_callback(section_idx, section_chars)   # Callback to :onswap event, Called when swapping to another keyboard section
 type_callback(char)                         # Callback to :ontype event, Called when typing on keyboard and char is the character typed
 space_callback()                            # Callback to :onspace event, Called when Space key pressed
 
