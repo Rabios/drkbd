@@ -54,8 +54,9 @@ def tick args
     puts "Chars are #{kbdup_state == 0 ? "Lowercase" : "Uppercase" } now..."
   end
   
-  $swap_cb ||= ->(section_idx) do
-    # Section of chars index...
+  $swap_cb ||= ->(section_idx, chars) do
+    puts "Section index: #{section_idx}"
+    puts chars
   end
   
   kbd.add_event(:onshow, $show_cb)
