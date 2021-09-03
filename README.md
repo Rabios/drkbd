@@ -42,7 +42,7 @@ All drkbd library functions exposed in class `DRKeyboard` and API made to be sim
 
 ```rb
 #------------------------------#
-         Main Variables
+#        Main Variables        #
 #------------------------------#
 
 init                                        # [Void] Initializes the Keyboard.
@@ -55,7 +55,7 @@ set_keys(k)                                 # [Void] Sets keyboard keys
 
 
 #------------------------------#
-          Events Types
+#         Events Types         #
 #------------------------------#
 :onerase                                    # When erase key pressed
 :onshow                                     # When Keyboard displayed
@@ -67,7 +67,7 @@ set_keys(k)                                 # [Void] Sets keyboard keys
 
 
 #------------------------------#
-         Events Callbacks
+#        Events Callbacks      #
 #------------------------------#
 erase_callback(char)                        # Callback to :onerase event, char is character deleted
 show_callback()                             # Callback to :onshow event, Called when Keyboard show up
@@ -79,7 +79,7 @@ space_callback()                            # Callback to :onspace event, Called
 
 
 #------------------------------#
-       Internal Variables
+#      Internal Variables      #
 #------------------------------#
 
 args.state.drkbd.touched                    # [Int/Boolean]  Is screen touched right now? 
@@ -97,7 +97,7 @@ args.state.drkbd.chars                      # [Array<Array<String>>] Array of Ke
 
 
 #------------------------------#
-       Internal Functions
+#      Internal Functions      #
 #------------------------------#
 
 is_mobile                                   # [Boolean] Is device a mobile?
@@ -110,7 +110,7 @@ remove_char_at_pos(txt, pos = -1)           # [Void]    Removes char at index of
 
 
 #------------------------------#
-        Internal Classes
+#       Internal Classes       #
 #------------------------------#
 
 Solid       # Used by drkbd to render solids
