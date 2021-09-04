@@ -42,7 +42,7 @@ All drkbd library functions exposed in class `DRKeyboard` and API are made simpl
 
 ```rb
 #------------------------------#
-#        Main Variables        #
+#        Main Functions        #
 #------------------------------#
 
 init                                        # [Void] Initializes the Keyboard.
