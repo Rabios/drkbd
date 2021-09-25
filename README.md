@@ -121,7 +121,7 @@ Label       # Used by drkbd to render labels
 Sprite      # Used by drkbd to render sprites
 ```
 
-## Usage
+## What this thing originally made for?
 
 This was originally made for the game [COLOLINKS!](https://rabios.itch.io/cololinks) so make sure you check it out! :)
 
