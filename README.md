@@ -20,9 +20,7 @@ require "app/drkbd.rb"
 
 ### With Smaug
 
-<!-- Install package with `smaug add drkbd` and then require `smaug.rb` as you're used to! -->
-
-Sorry no smaug...
+Install package with `smaug add drkbd` and then require `smaug.rb` as you're used to!
 
 ## Usage
 
