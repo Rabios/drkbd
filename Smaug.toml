@@ -1,0 +1,14 @@
+[package]
+name = "drkbd"
+authors = ["Rabia Alhaffar <steria773@gmail.com>"]
+version = "0.0.1"
+icon = "metadata/icon.png"
+homepage = "https://github.com/Rabios/drkbd"
+keywords = [ "Ruby", "Android", "Keyboard", "iOS", "MRuby", "Virtual-Keyboard", "OnScreen-Keyboard", "DragonRuby", "DragonRuby GTK" ]
+documentation = "https://github.com/Rabios/drkbd/blob/main/README.md"
+repository = "https://github.com/Rabios/drkbd"
+requires = [ "smaug/drkbd/drkbd.rb" ]
+
+[dragonruby]
+version = "3"
+edition = "pro"
